@@ -52,10 +52,10 @@ nav .buttons {
 }
 
 #mainlogo {
-  top: 0;
+  top: 125px;
   left: 60px;
   position:absolute;
-  width:335px;
+  width:200px;
   z-index:1;
   padding: 5px;
 }
@@ -65,7 +65,7 @@ nav .buttons {
  top: -50px;
  background : rgba(108, 144, 159, 1);
  text-align:left;
- padding: 0% 1% 3% 15%;
+ padding: 10% 1% 3% 15%;
 }
 
 h1 {
@@ -83,57 +83,65 @@ h3 {
   line-height: 1.25em;
 }
 
+a{
+  text-decoration: none;
+  color:#9dc7c4;
+}
+a:hover {
+  color: #407185;
+}
+
 /*Profiles*/
 
 #profiles {
-  background: url(../img/ProfileBackground.svg) no-repeat top left;
-  margin-left: 60px;
+  background: url(../img/ProfileBackground.png) no-repeat top left;
+  margin-left: 70px;
   background-size:70%;
   height: 590px;
 }
 
 #profileimg1
-/*Ray*/
+/*Bend*/
 {
   cursor: pointer;
   position : relative;
-  left: 27px;
-  top: 164px;
+  left: 29px;
+  top: 169px;
   width : 43%;
   -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0 50%);
   clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0 50%);
 }
 
 #profileimg2
-/*Chyno*/
+/*Umpqua River*/
 {
   cursor: pointer;
   position : relative;
-  left : -21px;
-  top : 105px;
+  left : -18px;
+  top : 115px;
   width : 43%;
   -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0 50%);
   clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0 50%);
 }
 
 #profileimg3
-/*Andy*/
+/*Crater Lake*/
 {
   cursor: pointer;
   position : relative;
-  left : 167px;
-  top : 152px;
+  left : 166px;
+  top : 155px;
   width : 43%;
   -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0 50%);
   clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0 50%);
 }
 
 #profileimg4
-/*TJ*/
+/*Iris Farm*/
 {
   cursor: pointer;
   position: relative;
-  left :-65px;
+  left :-57px;
   top :233px;
   width : 43%;
   -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0 50%);
@@ -161,40 +169,50 @@ h3 {
   padding: 2.5px;
 }
 
-/*Treehouse*/
+/*VanderWigs*/
 
-#treehouse {
+#VanderWigs {
   background:rgba(79, 92, 108, 1);
   padding:15px;
+  margin-left: 60px;
 }
 
-#treehouselogo {
+#VanderWigsPhoto {
   vertical-align: middle;
-  position:absolute;
-  left: 70px;
-  margin: 5% 3% 5% 0;
-  width: 75px;
+  width: 100px;
+  border: 2px solid #6c909f;
 }
 
-#treehouse h3 {
+#VanderWigs h3 {
   text-align: center;
   font-weight: 700;
 }
 
-#treehouse p {
+#VanderWigs p {
   position:relative;
-  width: 185px;
+  width: 85%;
   line-height:1.25 em;
-  left: 160px;
+}
+
+#vwTable {
+  width:100%;
+  padding: 15px;
+}
+
+.contactbuttons {
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2.5px;
 }
 
 /*Github*/
 
 #github {
-  background: url(../img/GitHubBackground.svg) no-repeat top center;
-  margin-left: 35px;
+  background: url(../img/GitHubBackground.png) no-repeat top center;
+  margin: 25px 0 0 35px;
   background-size:85%;
-  height:385px;
+  height:425px;
 }
 
 #github img {
